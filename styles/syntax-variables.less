@@ -1,0 +1,51 @@
+/* Solarized color palette */
+
+//@base03: #002b36 - rgb(0,15,15);
+@base03: #002b36;
+@base02: #073642;
+@base02trans: rgba(7,54,66,0.8);
+@base01: #586e75;
+@base00: #657b83;
+@base0: #839496;
+@base1: #93a1a1;
+@base2: #eee8d5;
+@base3: #fdf6e3;
+@yellow: #b58900;
+@orange: #cb4b16;
+@red: #dc322f;
+@magenta: #d33682;
+@violet: #6c71c4;
+@blue: #268bd2;
+@cyan: #2aa198;
+@green: #859900;
+
+// This defines all syntax variables that syntax themes must implement when they
+// include a syntax-variables.less file.
+
+// General colors
+@syntax-text-color: @base1;
+@syntax-cursor-color: @base1;
+@syntax-selection-color: @base01;
+@syntax-background-color: @base03;
+
+// Guide colors
+@syntax-wrap-guide-color: #657b83;
+@syntax-indent-guide-color: #657b83;
+@syntax-invisible-character-color: #657b83;
+
+// For find and replace markers
+@syntax-result-marker-color: #657b83;
+@syntax-result-marker-color-selected: #93a1a1;
+
+// Gutter colors
+@syntax-gutter-text-color: #93a1a1;
+@syntax-gutter-text-color-selected: #93a1a1;
+@syntax-gutter-background-color: #002b36;
+@syntax-gutter-background-color-selected: rgba(101, 123, 131, 0.33);
+
+// For git diff info. i.e. in the gutter
+// These are static and were not extracted from your textmate theme
+@syntax-color-renamed: #96CBFE;
+@syntax-color-added: #A8FF60;
+@syntax-color-modified: #E9C062;
+@syntax-color-removed: #CC6666;
