@@ -1,7 +1,7 @@
 {
   "name": "ptx-solarized-dark-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A tweaked Solarized dark syntax theme for Atom based on a TextMate port",
   "repository": {
     "type": "git",
